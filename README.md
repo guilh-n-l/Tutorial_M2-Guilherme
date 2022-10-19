@@ -13,7 +13,8 @@ Neste repositório serão concentradas todas as informações necessárias relac
 - Em cada semana, materiais de autoestudo auxiliares opcionais poderão ser disponibilizados no subdiretório `01_AUT_EST` caso algum material previamente curado tenha algum problema de acesso (algum link externo sair do ar, por exemplo).
 
 # Entregas
-- [Semana 2]("https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_02/03_AUT_EST_ENTREGA/db")
+
+[Semana 2]("https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_02/03_AUT_EST_ENTREGA/db")
 
 # Glossário
 
