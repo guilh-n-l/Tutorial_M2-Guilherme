@@ -12,6 +12,9 @@ Neste repositório serão concentradas todas as informações necessárias relac
 - Em algumas semanas, serão propostos mais exercícios INDIVIDUAIS de programação, focados em lógica de programação, obrigatórios e outros OPCIONAIS. Estes autoestudos, bem como os links para os arquivos no Github (subdiretório `04_EXE_OBRIGATORIOS` para os obrigatórios e `05_AUT_EST_EXE_OPCIONAIS` para os opcionais) estarão disponíveis na Adalove a cada semana.
 - Em cada semana, materiais de autoestudo auxiliares opcionais poderão ser disponibilizados no subdiretório `01_AUT_EST` caso algum material previamente curado tenha algum problema de acesso (algum link externo sair do ar, por exemplo).
 
+# Entregas
+- Semana 2 -> [Exercício de personalização]("https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_02/03_AUT_EST_ENTREGA/db")
+
 # Glossário
 
 - **HTTP: Hypertext Transfer Protocol** - protocolo para troca de dados na Web através de mensagens ("requests"). Exemplos de mensagens HTTP são GET, POST, PUT e DELETE.
