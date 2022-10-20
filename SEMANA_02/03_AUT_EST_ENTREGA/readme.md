@@ -13,7 +13,7 @@ Pensando somente na estrutura do banco, crie o modelo relacional e modelo físic
 Em seu github pessoal, envie os seguintes artefatos:
 
     1. Imagem representando o modelo relacional
-    2. Arquivo .sql ou .db contendo a estrutura física do banco de dados, gerado pelo SGDB Sqlite3
+    2. Arquivo .sql ou .db contendo a estrutura física do banco de dados, gerado pelo SGDB Sqlite3 -> Database.db
 
 
 
