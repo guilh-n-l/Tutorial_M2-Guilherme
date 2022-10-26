@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>ETAPA 3</title>
+	<link rel="stylesheet" href="style.css" />
+
+
+</head>
+<h1>ETAPA 3</h1>
+<body>
+	<div id="main">
+		<h2>Lançamento Vertical</h2>
+		</br>
+		<h3>Escolha a velocidade inicial da partícula:</h3>
+		Velocidade inicial:
+		<input type="number" id="iniVel">
+		m/s
+		<button onclick="vertical(document.getElementById('iniVel').value)" >Calcular</button>
+        </br>
+        <b><div id="altMax"> </div></b>
+		<b><div id="timeUp"> </div></b>
+		<h2>Vértice da Parábola</h2>
+		</br>
+		<h3>Escolha as variáveis da equação do segundo grau:</h3>
+		Valor de "a":
+		<input type="number" id="variableA">
+		</br>
+		Valor de "b":
+		<input type="number" id="variableB">
+		</br>
+		Valor de "c":
+		<input type="number" id="variableC">
+		</br>
+        <button onclick="parable(document.getElementById('variableA').value, document.getElementById('variableB').value, document.getElementById('variableC').value)" >Calcular</button>
+        </br>
+        <b><div id="XVertix"> </div></b>
+		<b><div id="YVertix"> </div></b>
+		<h2>Temperatura</h2>
+		</br>
+		<h3>Escolha a temperatura e a unidade para que ela seja convertida:</h3>
+		Valor da temperatura:
+		<input type="number" id="temp">
+		<select id="unidade">
+			<option value="celsius">°C</option>
+			<option value="fahrenheit">°F</option>
+		</select>
+		</br>
+        <button onclick="convertTemp(document.getElementById('temp').value, document.getElementById('unidade').value)">Calcular</button>
+        </br>
+        <b><div id="tempFinal"> </div></b>
+		<h2>Energia</h2>
+		</br>
+		<h3>Escolha a quantidade de energia gasta e o preço da unidade para ver quanto gastou:</h3>
+		<b>Obs.: Valores de energia gasta acima de 100kWh aumentam o valor do kWh em 25% e valores de energia gasta acima de 200kWh aumentam o valor do kWh em 50% em relação ao valor inicial.</b>
+		</br>
+		Energia gasta:
+		<input type="number" id="energ">kWh
+        </br>
+        Valor unitário de energia:
+        <input type="number" id="val">R$/kWh
+		</br>
+        <button onclick="consumption(document.getElementById('energ').value, document.getElementById('val').value)">Calcular</button>
+        </br>
+        <b><div id="valFinal"> </div></b>
+	</div>
+	<script src="functions.js"></script>
+</body>
+</html>
