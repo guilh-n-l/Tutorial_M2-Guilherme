@@ -42,7 +42,7 @@ app.post('/personalidade/insert', urlencodedParser, (req, res) => {
 		    throw err;
 		}	
 	});
-        res.write('<p>USUARIO INSERIDO COM SUCESSO!</p><a href="/">VOLTAR</a>');
+        res.write('<p>PERSONALIDADE INSERIDA COM SUCESSO!</p><a href="/">VOLTAR</a>');
 	db.close(); // Fecha o banco
 	res.end();
 });
@@ -76,7 +76,7 @@ app.post('/personalidade/update', urlencodedParser, (req, res) => {
 		}
 		res.end();
 	});
-	res.write('<p>USUARIO ATUALIZADO COM SUCESSO!</p><a href="/">VOLTAR</a>');
+	res.write('<p>PERSONALIDADE ATUALIZADA COM SUCESSO!</p><a href="/">VOLTAR</a>');
 	db.close(); // Fecha o banco
 });
 
