@@ -17,11 +17,17 @@
 
   [Exercício de personalização pt.3](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_04/03_AUT_EST_ENTREGA/Entrega)
   > Requer os pacotes SQLite3 e Express
+  
+  ### Semana 5
+
+  [Exercício de personalização pt.4](https://htmlpreview.github.io/?https://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_05/03_AUT_EST_ENTREGA/Entrega/index.html)
+  
 
 ## Autoestudo Obrigatório
 ### Semana 3
 
   [Resolução de problemas com algoritmos](https://htmlpreview.github.io/?https://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_03/04_AUT_EST_EX_OBRIGATORIOS/Entrega/public/index.html)
+
 
 ## Autoestudo Opcional
 ### Semana 3
