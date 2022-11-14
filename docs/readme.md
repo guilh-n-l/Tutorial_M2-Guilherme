@@ -36,4 +36,4 @@
  
 ### Semana 5
 
-  [Resolução de problemas com algoritmos pt.2](https://htmlpreview.github.io/?ttps://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_05/04_AUT_EST_EX_OPCIONAIS/EntregaExtra/index.html)
+  [Refatoração do exercício de personalização](https://htmlpreview.github.io/?https://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_05/05_AUT_EST_EX_OPCIONAIS/EntregaExtra/index.html)
