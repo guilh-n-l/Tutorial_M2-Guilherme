@@ -33,3 +33,7 @@
 ### Semana 3
 
   [Resolução de problemas com algoritmos pt.2]()
+ 
+### Semana 5
+
+  [Resolução de problemas com algoritmos pt.2](https://htmlpreview.github.io/?ttps://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_05/04_AUT_EST_EX_OPCIONAIS/EntregaExtra/index.html)
