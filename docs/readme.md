@@ -24,7 +24,8 @@
 
 ### Semana 6
 
-  [Exercício de personalização pt.5](https://htmlpreview.github.io/?https://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_06/03_AUT_EST_ENTREGA/Entrega/frontend/index.html)
+  [Exercício de personalização pt.5](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_06/03_AUT_EST_ENTREGA/Entrega)
+  > Requer os pacotes JQuery(online) e Express
 
 ## Autoestudo Obrigatório
 ### Semana 3
