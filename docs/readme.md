@@ -32,7 +32,7 @@
 
   [Resolução de problemas com algoritmos](https://htmlpreview.github.io/?https://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_03/04_AUT_EST_EX_OBRIGATORIOS/Entrega/public/index.html)
  
- ### Semana 7
+### Semana 7
 
   [Resolução de problemas com algoritmos pt.2](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_07/04_AUT_EST_EX_OBRIGATORIOS/Entrega)
   > Requer os pacotes JQuery(online)
