@@ -25,18 +25,19 @@
 ### Semana 6
 
   [Exercício de personalização pt.5](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_06/03_AUT_EST_ENTREGA/Entrega)
-  > Requer os pacotes JQuery(online) e Express
+  > Requer os pacotes JQuery(online)
 
 ## Autoestudo Obrigatório
 ### Semana 3
 
   [Resolução de problemas com algoritmos](https://htmlpreview.github.io/?https://github.com/guilh-n-l/Tutorial_M2-Guilherme/blob/main/SEMANA_03/04_AUT_EST_EX_OBRIGATORIOS/Entrega/public/index.html)
+ 
+ ### Semana 7
 
+  [Resolução de problemas com algoritmos pt.2](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_07/04_AUT_EST_EX_OBRIGATORIOS/Entrega)
+  > Requer os pacotes JQuery(online)
 
 ## Autoestudo Opcional
-### Semana 3
-
-  [Resolução de problemas com algoritmos pt.2]()
  
 ### Semana 5
 
