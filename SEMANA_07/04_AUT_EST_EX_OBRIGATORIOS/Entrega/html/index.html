@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <title>Resolução de problemas 7</title>
+</head>
+<body>
+    <h1>Multiplication Table</h1>
+    <input id="table-usr" type="number" min="0" max="10">Choose a number
+    <br>
+    Inital factor <select name="Initial Value" id="table-start">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <br>
+    Final factor <select name="Second Value" id="table-end">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <button id="calc1">Calculate</button>
+    <table id="table-result">
+        <tr id="row1">
+            <td id='x'>Result will appear here!</td>
+            <td id="col1-0"></td>
+            <td id="col1-1"></td>
+            <td id="col1-2"></td>
+            <td id="col1-3"></td>
+            <td id="col1-4"></td>
+            <td id="col1-5"></td>
+            <td id="col1-6"></td>
+            <td id="col1-7"></td>
+            <td id="col1-8"></td>
+            <td id="col1-9"></td>
+            <td id="col1-10"></td>
+        </tr>
+        <tr id="row2">
+            <td id="col-usr"></td>
+            <td id="col2-0"></td>
+            <td id="col2-1"></td>
+            <td id="col2-2"></td>
+            <td id="col2-3"></td>
+            <td id="col2-4"></td>
+            <td id="col2-5"></td>
+            <td id="col2-6"></td>
+            <td  id="col2-7"></td>
+            <td id="col2-8"></td>
+            <td id="col2-9"></td>
+            <td id="col2-10"></td>
+        </tr>
+    </table>
+    <h1>Palindrome</h1>
+    <input id="num-usr" type="number" min="0">Choose a number
+    <button id="calc2">Calculate</button>
+    <p id="palindrome-output">Result will appear here!</p>
+    <br>
+    <h1>1, 2, 3 PI!</h1>
+    <input id="num-cap" type="number" min="0">Choose a number
+    <button id="calc3">Calculate</button>
+    <p id="pi-output">Result will appear here!</p>
+    <h1>Tiling a room</h1>
+    <p>Note: Consider that you can only buy whole tiles and that all of them have the exact same dimensions.</p>
+    <p>Note: The total number of tiles have been increased in 5% for safety measures.</p>
+    <input id="tile-height" type="number" min="0">Choose tile height
+    <br>
+    <input id="tile-length" type="number" min="0">Choose tile length
+    <br>
+    <input id="wall-height" type="number" min="0">Choose a wall height
+    <br>
+    <input id="wall-length" type="number" min="0">Choose a wall length
+    <br>
+    <button id="calc4">Calculate</button>
+    <p id="tile-output">Result will appear here!</p>
+</body>
+</html>
