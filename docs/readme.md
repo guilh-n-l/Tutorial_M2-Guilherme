@@ -26,6 +26,11 @@
 
   [Exercício de personalização pt.5](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_06/03_AUT_EST_ENTREGA/Entrega)
   > Requer os pacotes JQuery(online)
+  
+### Semana 7
+
+  [Exercício de personalização pt.6](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_07/03_AUT_EST_ENTREGA/Entrega)
+  > Requer os pacotes JQuery(online), Express e SQLite3
 
 ## Autoestudo Obrigatório
 ### Semana 3
