@@ -1,0 +1,215 @@
+/* Selectors */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #282828;
+    
+}
+
+body text, p, h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+
+a{
+    text-decoration: underline;
+    color: #8ab4f8;
+}
+img{
+    cursor: pointer;
+}
+
+nav{
+    z-index: 2;
+    background: slategrey;
+    width: 100%;
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #222222;
+    position: sticky;
+    top: 0px;
+}
+
+table, th, td {
+    margin: 2px;
+    width: 100%;
+  }
+
+table, th, td text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+label {
+    color: white;
+}
+/* Classes */
+
+.action{
+    margin-bottom: 20px;
+    margin-inline: 10px;
+    display: inline-block;
+
+    color: #8ab4f8;
+}
+
+.title{
+    color: white;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+    /* Navbar */
+
+.nav-left img{
+    width: 30px;
+    border-radius: 40px;
+    margin-right: 25px;
+}
+
+.nav-middle{
+    text-align: center;
+}
+
+    /* Main Container */
+
+.container{
+    background: #373737;
+    margin: 0px 40px;
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+        /* Header */
+.header{
+    justify-content: space-between;
+}
+.header h1, h2, h3, h4, h5, h6{
+    margin: 0px 100px
+}
+        /* Cards */
+
+.content-container{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card{
+    background: #575757;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-col {
+    width: 100%;
+}
+.sections{
+	padding: 1em;
+    color: white;
+}
+.sidecard {
+    width: 70%;
+    height: 100vh;
+    margin: 20px;
+    padding: 10px;
+    background: #404958;
+    position: static;
+    top: 0;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.sidecard table, th, td {
+    width: auto;
+    padding: 10px;
+    margin: auto;  
+}
+
+.sidecard h1{
+    margin: 0px 100px 30px;
+}
+
+.sidecard h2{
+    margin: 30px 100px 30px;
+}
+
+
+.sidemain{
+    width: 20px;
+}
+
+.sidebottom{
+    width: 100px;
+}
+
+.active{
+    display: inline-block;
+    width: 250px;
+}
+
+/* Elements */
+
+#profile-pic{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    justify-content: center;
+}
+#profile-pic img{
+    display: none;
+    width: 250px;
+}
+#profile-pic img.active{
+    display: inline-block;
+    width: 250px;
+}
+
+#left{
+    z-index: 1;
+    cursor: pointer;
+    width: 100px;
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+
+#right{
+    cursor: pointer;
+    width: 100px;
+}
+
+/* Tablet Mode / Phone Mode */
+@media screen and (max-width: 768px) {
+	#profile-pic{
+        border-radius: 100%;
+        margin: 5px;
+        
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .sidecard {
+        width: 100%;
+    }
+    
+}
