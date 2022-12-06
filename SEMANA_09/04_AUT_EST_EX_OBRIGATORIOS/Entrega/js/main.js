@@ -7,11 +7,11 @@ function exercise1() {
     switch(choice){
         case 'pv':
             result = usrNum*Math.pow((1+i), t);
-            $('#result1').val(`FV = ${result}`)
+            $('#result1').val(`FV = ${result.toFixed()}`)
             break;
         case 'fv':
             result = usrNum/Math.pow((1+i), t);
-            $('#result1').val(`PV = ${result}`)
+            $('#result1').val(`PV = ${result.toFixed()}`)
             break;
     }
 }
@@ -21,7 +21,8 @@ function exercise2() {
     let i = $('#interest2').val()/100;
     let t = $('#time2').val()
     let result = usrNum*(1+(i*t));
-    $('#result2').val(`FV = ${result}`)
+    $('#result2').val(`FV = ${result.toFixed(1)}`)
+    $('#result2-1').val((result-usrNum).toFixed());
 }
 
 function exercise3() {
@@ -45,8 +46,18 @@ function exercise4() {
             counter *= 2;
         }
     }
-    console.log(counter)
-    
+    let returner = 0;
+    while (counter >= 1) {
+        if ((counter + returner) <= usrNum) {
+            bin += '1';
+            returner += counter;
+        }
+        else {
+            bin += '0';
+        }
+        counter /= 2;
+    }
+    $('#result4').val(parseInt(bin));
 }
 
 
