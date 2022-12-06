@@ -47,6 +47,13 @@
   [Resolução de problemas com algoritmos pt.2](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_07/04_AUT_EST_EX_OBRIGATORIOS/Entrega)
   > Requer os pacotes JQuery(online)
 
+### Semana 9
+
+  [Resolução de problemas com algoritmos pt.3](https://github.com/guilh-n-l/Tutorial_M2-Guilherme/tree/main/SEMANA_09/04_AUT_EST_EX_OBRIGATORIOS/Entrega)
+  > Requer os pacotes JQuery(online)
+  
+  
+
 ## Autoestudo Opcional
  
 ### Semana 5
